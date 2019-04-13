@@ -1,0 +1,43 @@
+
+        #wrap{
+
+            margin:50px auto;
+            
+             /* //背景小方格   35*35 */
+            background: url("./../image/glass.jpg");
+            position: relative;
+        }
+        #wrap div{
+            width: 35px;
+            height: 35px;
+            position: absolute;
+        }
+        #wrap div img{
+            position: absolute;
+        }
+        #wrap div.people img{
+            z-index: 2;
+        }
+        #wrap div.box img{
+            z-index: 1;
+        }
+
+       /* #wrap div img.tree{
+            position: absolute;
+            bottom: 0px;
+        }
+        #wrap div image.ball{
+
+        }*/
+        #text {
+            position: absolute;
+            top: 40%;
+            transform: translate(0, -50%);
+            text-align: center;
+            width: 100%;
+            font-family: "STHupo";
+            font-size: 28px;
+            background-image:-webkit-linear-gradient(bottom,red,#fd8403,yellow); 
+            -webkit-background-clip:text; 
+            -webkit-text-fill-color:transparent; 
+        }
